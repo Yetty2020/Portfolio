@@ -37,17 +37,17 @@ export default function AboutReveal() {
             scrollTrigger: {
                 trigger: triggerRef.current,
                 scrub: true, 
-                start: "top 20%", 
+                start: "top bottom", 
                 
                 end: `+=${staggerDuration * 20}`, 
-                markers: true,
+                
                
               
                 
             },
             color: "#e5dee3ff", 
-            duration: 1, 
-            stagger: 0.05, 
+            duration: 2, 
+            stagger: 1, 
         });
         
     }, { scope: triggerRef, dependencies: [] }); 
@@ -72,7 +72,7 @@ export default function AboutReveal() {
           
             
           
-            <div className='reveal mb-12 w-3/4 ' ref={triggerRef} >
+            <div className='reveal mb-12 w-[60%] ' ref={triggerRef} >
                 
                 {/* 1. Main Text */}
                 <h1 className='text-xl mb-6'>
