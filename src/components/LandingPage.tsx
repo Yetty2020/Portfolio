@@ -66,7 +66,7 @@ export default function LandingPage() {
 
         {!isLoading && (
 
-            <div className="lg:w-[60%] lg:p-4 mx-auto">
+            <div className="lg:w-[60%] lg:p-4 mx-auto p-4">
             <Hero/>
 
             <Projects/>

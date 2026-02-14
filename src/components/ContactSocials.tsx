@@ -8,7 +8,7 @@ export default function ContactSocials() {
       
      <div className="flex flex-col gap-20 lg:w-[40%]">
       <h1 className="text-5xl font-bold">CONTACT ME</h1>
-      <div className="flex flex-col gap-5 lg:w-[70%] lg:justify-end">
+      <div className="flex flex-col justify-content item-center gap-5 lg:w-[70%] lg:justify-end">
         <p>Have a project in mind or would like to work with me? Get in touch!</p>
             <div className="flex gap-5 items-center text-2xl justify-center">
                 <span><IoLogoLinkedin/></span>
