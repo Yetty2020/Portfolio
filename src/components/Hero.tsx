@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <main className="bg-black text-white    h-screen   ">
         
-        <div className=" bg-black  w-full flex flex-col justify-content gap-2  lg:pt-30 mt-7">
+        <div className=" bg-black  w-full flex flex-col justify-content gap-2  lg:pt-30 mt-7 pt-20 ">
         <img src={memo} alt="" className="w-[20%] lg:w-[8%] rounded-full mb-2"/>
         <h1 data-cursor="hero-btn" className="text-xl">Hey, Fatihah here.</h1>
         <p>How's {currentDay}?</p>

@@ -72,7 +72,7 @@ export default function AboutReveal() {
           
             
           
-            <div className='reveal mb-12 w-[60%] ' ref={triggerRef} >
+            <div className='reveal mb-12 lg:w-[60%] ' ref={triggerRef} >
                 
                 {/* 1. Main Text */}
                 <h1 className='text-xl mb-6'>
