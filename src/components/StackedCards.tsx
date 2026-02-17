@@ -146,15 +146,15 @@ useGSAP(() => {
        
          
          
-          <div ref={container} className='container w-full  flex flex-col items-center bg-black mx-auto' >
-            <div ref={stackedCards} className='stacked-cards w-full h-full relative mx-auto md:w-[75%] flex flex-col xl:w-[clamp(85%, 4vw, 90%)] py-[30px]'>
+          <div ref={container} className='container w-full  flex flex-col items-center bg-black mx-auto py-10 md:py-0 mt-30 md:mt-0' >
+            <div ref={stackedCards} className='stacked-cards w-full h-[100vh] relative mx-auto md:w-[75%] flex flex-col xl:w-[clamp(85%, 4vw, 90%)] '>
 
               {
                 ProjectItems.map((item, index) => (
-                  <div key={item.id} className='absolute inset-0 lg:m-auto card w-full  h-[clamp(600px,60vh,900px)]  lg:h-[75vh] flex flex-col lg:flex-row-reverse rounded-md shadow-md border border-gray-500 p-6 overflow-hidden bg-black' style={{ zIndex: index + 1 }}>
+                  <div key={item.id} className='absolute inset-0 lg:m-auto card w-full h-[clamp(600px,60vh,900px)]  lg:h-[75vh] flex flex-col lg:flex-row-reverse rounded-md shadow-md  border border-gray-500 p-6 overflow-hidden bg-black' style={{ zIndex: index + 1 }}>
                     
-                    <div className='img-wrapper lg:w-1/2 lg:h-[80%] w-full  lg:flex lg:flex-col lg:gap-6 gap-8 object-contain'>
-                      <h4 className='self-start text-3xl lg:hidden mb-4 md:mb-2 '>{`${item.num})`}</h4>
+                    <div className='img-wrapper lg:w-1/2 lg:h-[80%] w-full  lg:flex lg:flex-col lg:gap-6 object-contain'>
+                       <h4 className='self-start text-3xl lg:hidden mb-4 md:mb-2 '>{`${item.num})`}</h4>
                       <div className='flex justify-between items-center mb-4'>
                         <h1 className=' text-xl lg:text-3xl font-bold '>{item.title}</h1>
                         <BsBoxArrowUpRight className='text-white  text-lg lg:text-xl ' />
@@ -162,7 +162,7 @@ useGSAP(() => {
                       <img src={item.image} alt='project' className='block w-full lg:max-h-[80%] max-h-48 md:max-h-72 object-cover rounded-md'/>
                     </div>
                     <div className='card-content w-full lg:w-1/2 lg:h-[40%]  flex flex-col gap-5  justify-start items-start lg:justify-content bg-black'>
-                      <h4 className='self-start text-5xl hidden lg:flex'>{`${item.num})`}</h4>
+                       <h4 className='self-start text-5xl hidden lg:flex'>{`${item.num})`}</h4>
                       <p className='mt-5 md:mt-0'>(About The Project)</p>
                       <p className='lg:w-[90%]'>{item.about}</p>
                     </div>

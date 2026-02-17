@@ -16,6 +16,7 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import Navbar from "./Navbar"
 import Contact from "./Contact"
+import FixedLogos from "./FixedLogos"
 
 gsap.registerPlugin(useGSAP,ScrollSmoother, ScrollTrigger);
 
@@ -58,6 +59,7 @@ export default function LandingPage() {
     <main className="bg-black text-white   ">
 
         <div ref={smoothWrapper} id='smooth-wrapper' className='  '>
+          <FixedLogos/>
               {!isLoading && <Navbar />}
         <div ref={smoothContent} id='smooth-content' className='will-change-transform bg-black'>
         <div className="">
@@ -67,6 +69,7 @@ export default function LandingPage() {
         {!isLoading && (
 
             <div className="lg:w-[60%] lg:p-4 mx-auto p-6">
+              
             <Hero/>
 
             <Projects/>

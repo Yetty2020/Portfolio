@@ -120,7 +120,7 @@ export default function Navbar() {
 
   return (
     <div>
-        <nav  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="hidden lg:block lg:fixed translate-y-[-50%] top-[50%] left-10 z-[999] bg-black/50 rounded-3xl p-4 text-white  ">
+        <nav  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="hidden lg:block lg:fixed translate-y-[-50%] top-[50%] left-10 z-[999] bg-white/15 backdrop-blur-lg border border-white/25 shadow-lg rounded-3xl p-4 text-white  ">
 
             
 
