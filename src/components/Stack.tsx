@@ -103,7 +103,7 @@ export default function Stack() {
   return (
     <div className=' mb-25 mt-10 py-10'>
       <h1 className='text-white text-3xl mb-10'>Tech Stack</h1>
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 gap-x-10  mx-auto'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 gap-x-10  mx-auto'>
         {stackItems.map((item) => (
           <StackItem key={item.id} item={item} />
         ))}

@@ -18,9 +18,9 @@ export default function Hero() {
     setCurrentDay(dayString)
   }, [])
   return (
-    <main className="bg-[#303030] text-white    h-screen   ">
+    <main className="text-white    h-screen   ">
         
-        <div className=" bg-[#303030]  w-full flex flex-col justify-content gap-2  lg:pt-30 mt-7 pt-20 ">
+        <div className="  w-full flex flex-col justify-content gap-2  lg:pt-30 mt-7 pt-20 ">
           
         <img src={memo} alt="" className="w-[20%] lg:w-[8%] rounded-full mb-2"/>
         <h1 data-cursor="hero-btn" className="text-2xl font-bold lg:mb-4">Hey, Fatihah here.</h1>

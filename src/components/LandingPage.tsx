@@ -58,17 +58,17 @@ export default function LandingPage() {
 
     <main className="bg-[#303030] text-white   ">
 
-        <div ref={smoothWrapper} id='smooth-wrapper' className='bg-[#303030]  '>
+        <div ref={smoothWrapper} id='smooth-wrapper' className='bg-[#030712] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]  '>
           <FixedLogos/>
               {!isLoading && <Navbar />}
-        <div ref={smoothContent} id='smooth-content' className='will-change-transform bg-[#303030]'>
+        <div ref={smoothContent} id='smooth-content' className='will-change-transform bg-[#030712] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]'>
         <div className="">
 
         {isLoading && <Loading onComplete={handleLoadingComplete} />}
 
         {!isLoading && (
 
-            <div className="lg:w-[60%] lg:p-4 mx-auto p-6 bg-[#303030]">
+            <div className="lg:w-[60%] lg:p-4 mx-auto p-6 bg-[#030712] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
               
             <Hero/>
 

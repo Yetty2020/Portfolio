@@ -5,6 +5,7 @@ import Logo from "../assets/Logo.svg"
 export default function FixedLogos() {
   return (
     <div>
+      <div className="absolute top-[-10%] left-[-10%] h-[500px] w-[500px] rounded-full bg-purple-900/20 blur-[120px] z-10"></div>
 
         <img
         src={dotts}
