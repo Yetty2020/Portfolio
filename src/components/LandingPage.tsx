@@ -56,19 +56,24 @@ export default function LandingPage() {
     
     
 
-    <main className="bg-[#303030] text-white   ">
+    <main className=" text-white bg-[#000505]   ">
 
-        <div ref={smoothWrapper} id='smooth-wrapper' className='bg-[#030712] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]  '>
+        <div ref={smoothWrapper} id='smooth-wrapper' className=' '>
           <FixedLogos/>
               {!isLoading && <Navbar />}
-        <div ref={smoothContent} id='smooth-content' className='will-change-transform bg-[#030712] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]'>
-        <div className="">
+        <div ref={smoothContent} id='smooth-content' className='will-change-transform '>
+        <div className="bg-[#000505]">
 
         {isLoading && <Loading onComplete={handleLoadingComplete} />}
 
         {!isLoading && (
 
-            <div className="lg:w-[60%] lg:p-4 mx-auto p-6 bg-[#030712] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+            <div className="lg:w-[60%] lg:p-4 mx-auto p-6  bg-[#000505]">
+              {/* <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] rounded-full 
+              bg-[#00F5D4] opacity-[0.12] blur-[120px] pointer-events-none"></div>
+
+  <div className="absolute bottom-[-15%] left-[-5%] w-[700px] h-[700px] rounded-full 
+              bg-[#003D3D] opacity-[0.25] blur-[150px] pointer-events-none"></div> */}
               
             <Hero/>
 
