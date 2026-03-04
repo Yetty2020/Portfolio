@@ -8,6 +8,7 @@ type cardData = {
   title: string,
   image: string,
   about: string,
+  link: string,
   // stack: string[]
 
 
@@ -19,35 +20,40 @@ export const ProjectItems : cardData[] = [
     num: "01",
     title: "Positivus",
     image: imageA,
-    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore."
+    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore.",
+    link: "https://ip-address-gamma.vercel.app"
   },
   {
     id: 2,
     num: "02",
     title: "Github Search",
     image: imageA,
-    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore."
+    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore.",
+    link: "https://ip-address-gamma.vercel.app"
   },
   {
     id: 3,
     num: "03",
     title: "REST Countries Explorer",
     image: countries,
-    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore."
+    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore.",
+    link: "https://ip-address-gamma.vercel.app"
   },
   {
     id: 4,
     num: "04",
     title: "Furnihome",
     image: imageA,
-    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore."
+    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore.",
+    link: "https://ip-address-gamma.vercel.app"
   },
   {
     id: 5,
     num: "05",
     title: "IP Address Tracker",
     image: ipaddress,
-    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore."
+    about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus sapiente aspernatur a. Sequi illum nesciunt necessitatibus, molestiae ea eveniet earum rem placeat dolores blanditiis veritatis, recusandae veniam eum labore.",
+    link: "https://ip-address-gamma.vercel.app"
   }
 
 ]
